@@ -10,10 +10,6 @@ import Home from './Pages/Home';
 
 const router = createBrowserRouter([
 
-
-
-
-
   {
     path: "/",
     element: <Layout />,
@@ -38,8 +34,6 @@ const App = () => {
      
       <div><Toaster /></div>
       <RouterProvider router={router} />
-
-      
 
     </>
   )
